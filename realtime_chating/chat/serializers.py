@@ -5,7 +5,7 @@ class RoomSerializer(serializers.ModelSerializer):
     class Meta:
         model=Roomfields = '__all__'
 
-class MessageSerializer(serializers.modelSerializer):
-    class meta:
+class MessageSerializer(serializers.ModelSerializer):
+    class Meta:
         model = Message
         fields = '__all__'
